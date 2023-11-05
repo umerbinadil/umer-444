@@ -1,0 +1,1103 @@
+<html>
+    <head>
+        <title>
+              this is biggest lay out   
+        </title>
+        <style>
+            
+            *{
+                  margin:0px ;
+                  box-sizing:border-box;
+                  font-family: "Myraid Pro Regular";
+                  font-size:16px;
+            }
+            
+                  @font-face {
+                   font-family: "Myraid Pro Regular";
+                   src: url('./fonts/myriad-pro-cufonfonts-webfont/MYRIADPRO-REGULAR.woff');
+                   font-style: normal;
+                   font-weight: normal;
+                  }
+            #header{
+                  background-color:black;
+                  height:5rem;
+            }
+            #navigation ul li{
+                  color:#a7a797;
+                  list-style-type:none;
+                  margin-right: 1.875rem;
+                  font-size:1.25rem;
+            }
+            #navigation ul li:hover{
+                  cursor:pointer;
+                  color:white;
+            }      
+            #navigation ul{
+                  display:flex;
+            }
+            #sub-header{
+                  width:80%;
+                  margin:0 auto;
+                  display:flex;
+                  justify-content:space-between;
+                  align-items:center;
+                  height:5rem;
+            }
+            section{
+                  background-image:url("images/image.png");
+                  height:40.625rem;
+                  background-size:cover;
+                  background-repeat:no-repeat;
+                  display:flex;
+                  background-attachment:fixed;
+            }
+            #left-side h2{
+                  color:white;
+                  font-size:2.5rem;
+                  margin:40 0 20 0;
+                  line-height:3.125rem;
+                  font-weight: 100;
+            }
+            #left-side p{
+                  color:#a7a797;
+                  font-size:1.188rem;
+                  margin-top:2.5rem;
+
+            }
+            #left-side hr{
+                  width:4.375rem;
+                  border:0.125rem solid white;
+            }
+            #button1{
+                 padding:0.625rem 1.875rem;
+                 background:transparent;
+                 border:0.063rem solid white;
+                 color:white;
+                 margin-top:0.938rem;
+                 size:1.563rem;
+            }
+            #sec-work{
+                 display: flex;
+                 justify-content:space-between;
+                 width:80%;
+                 margin-left:10%;
+                 margin-right:10%;
+                 margin-top:4.063rem;
+            }
+            #right-side{
+                  flex-basis:28%;
+            }
+            #form-head h2{
+                  color:black;
+            }
+            #form-head span{
+                  color:orangered;
+            }
+            #form-head{
+                  padding:12 0;
+                  background-color:#f5f5f5;
+                  flex-basis:100%;
+                  border-top-right-radius:05px;
+                  border-top-left-radius:05px;
+                  text-align: center;
+            }
+            #form-body {
+                  background-color:white;
+                  display:flex;
+                  flex-direction:column;
+                  padding:0 1.875rem;
+            }
+            #form-body input{
+                  display:flex;
+                  flex-direction: column;
+                  padding-left:1.25rem;
+                  padding-bottom:1.25rem;
+                  margin:20 0;
+                  border:none;
+                  border-bottom:0.063rem solid  #eaeaea;
+            }
+            #form-body input:last-child{
+                  margin-bottom:2.5rem;
+            }
+            #button2 {
+                  width:100%;
+                  height:3.125rem;
+                  color:white;
+                  background-color:#ff8b38;
+                  border-bottom-left-radius: 0.313rem; 
+                  border-bottom-right-radius: 0.313rem;
+                  border:none;
+                  font-size:1.25rem;
+                  bottom:active;
+
+            }
+            .active, #button2:hover {
+                 color: white;
+                 cursor:pointer;
+                 color:grey;
+            }
+            .active, #button3:hover {
+                 color: white;
+                 cursor:pointer;
+                 color:grey;
+            }
+            .active, #button1:hover {
+                 color: white;
+                 cursor:pointer;
+                 color:grey;
+                 border-color:grey;
+            }
+            #sec2{
+                  border-bottom:0.188rem solid #bdbdbd;
+            }
+            #cont2{
+                  margin:0 10%;
+                  margin-top:1.25rem;
+                  padding-bottom:1.25rem;
+                  display:flex;
+                  justify-content: space-between;
+            }
+            #cont2-sub-items p{
+                  color:hsl(210deg 1.85% 78.82%);
+                  margin-top:0.625rem;
+            }
+            #cont2-sub-items2{
+                  margin-top:0.75rem;
+            }
+            #sec3{
+                  background-color:#f5f5f5;
+            }
+            #cont3{
+                  margin-left:10%;
+                  margin-right:10%;
+                  display:flex;
+                  padding-top:7.5rem;
+                  padding-bottom:7.5rem;
+                  justify-content: space-between;
+                  
+            }
+            #cont3-left-side{
+                  display:flex;
+                  flex-direction:column;
+            }
+            #cont3-left-tab1{
+                  background-color:#ff8b38;
+                  color:white;
+                  padding:2.5rem 1.875rem;
+                  border-bottom:1px solid #c7c7c7;
+            }
+            #cont3-left-tab1 h2{
+                  font-size:0.938rem;
+            }
+            #cont3-left-tab2 h2{
+                  font-size:0.938rem;
+            }
+            #cont3-left-tab3 h2{
+                  font-size:0.938rem;
+            }
+            #cont3-left-tab2{
+                  background-color:#333333;
+                  color:white;
+                  padding:2.5rem 1.875rem;
+                  border-bottom:1px solid #c7c7c7;
+                  font-size:0.938rem;
+            }
+            #cont3-left-tab3{
+                  background-color:#333333;
+                  color:white;
+                  padding:2.5rem 1.875rem;
+                  border-bottom:1px solid #c7c7c7;
+                  font-size:0.938rem;
+            }
+            #cont3-left-side1{
+                  margin-left:6%;
+            }
+            #cont3-left-side1 h2{
+                  margin-bottom:3.125rem;
+            }
+            #p2{
+                  margin-top:3.125rem;
+            }
+            #button3{
+                  color:white;
+                  background-color:#ff8b38;
+                  border:none;
+                  margin-top:2.5rem;
+                  padding:0.75rem 1.875rem;
+                  border-bottom-left-radius:0.188rem;
+                  border-bottom-right-radius:0.188rem;
+                  border-top-left-radius:0.188rem;
+                  border-top-right-radius:0.188rem;
+                  font-size:0.938rem;
+            }
+            #cont4{
+                  margin-left:10%;
+                  margin-right:10%;
+                  margin-top:8%;
+                  margin-bottom:10%;
+                  display:flex;
+                  justify-content:space-between;
+            }
+            #cont4 p{
+                  font-family: "Myraid Pro Regular";
+                  color:#b5b6b7;
+                  font-size:0.938rem;
+            }
+            #sub-items2 hr{
+                  border:1px solid #ff8b38;
+                  width:3.75rem;
+                  margin-top:1.25rem;
+                  margin-bottom:1.875rem;
+            }
+            #sub-items2{
+                  width:100%;
+            }
+            .cont4-sub-items{
+                  margin-top:2.5rem;
+                  
+            }
+            .cont4-sub-items h2{
+                  font-size:1.125rem;
+            }
+            .cont4-icon{
+                  display:flex;
+                  color: #ff8b38;
+            }
+            .cont4-icon i{
+                  font-size:1.25rem;
+                  border:2px solid #ff8b38;
+                  padding:0.625rem;
+                  padding-top:0.938rem;
+                  border-radius: 50%;
+                  align-items:center;
+                  color: #ff8b38;
+            }
+            #cont4{
+                  padding-bottom: 5rem;
+            }
+            #sec5{
+                  background-color:#f5f5f5 ;
+            }
+            #cont5{
+                  margin-left:10%;
+                  margin-right:10%;
+                  margin-top:-8%;
+                  display:flex;
+                  justify-content:space-between;
+                  flex-direction: row-reverse;
+                  padding-top: 8%;
+            }
+            #cont5 p{
+                  font-family: "Myraid Pro Regular";
+                  color:#b5b6b7;
+                  font-size:0.938rem;
+            }
+            #cont5-sub-items2 hr{
+                  border:1px solid #ff8b38;
+                  width:3.75rem;
+                  margin-top:1.25rem;
+                  margin-bottom:1.875rem;
+            }
+            #cont5-sub-items2{
+                  width:100%;
+            }
+            .cont5-sub-items{
+                  margin-top:2.5rem;
+                  
+            }
+            .cont5-sub-items h2{
+                  font-size:1.125rem;
+            }
+            .cont5-icon{
+                  display:flex;
+                  color: #ff8b38;
+            }
+            .cont5-icon i{
+                  font-size:1.25rem;
+                  border:2px solid #ff8b38;
+                  padding:0.625rem;
+                  padding-top:0.938rem;
+                  border-radius: 50%;
+                  align-items:center;
+                  color: #ff8b38;
+            }
+            #cont5{
+                  padding-bottom: 5rem;
+            }
+            #cont6{
+                  margin-left:10%;
+                  margin-right:10%;
+                  margin-top: 5rem;
+                  margin-bottom: 5rem;
+            }
+            #cont6-head{
+                  
+                  text-align: center;
+            }
+            #cont6-head h1{
+                  font-size:2.188rem;
+                  font-weight: 100;
+            }
+            #cont6{
+                  text-align: center;
+            }
+            #cont6-head hr{
+                  border:1px solid #ff8b38;
+                  width:3.75rem;
+                  margin-left:47%;
+                  margin:20 auto 30 auto;
+            }
+            #cont6-head p{
+                  color:#a7a7a7;
+            }
+            #sec6-cont6{
+                  display:flex;
+                  margin-top:3.125rem;
+                  justify-content: space-between;      
+            }
+            .cont6-sub-items{
+                  flex-basis: 30%;
+                  align-items: center;
+            }
+            .cont6-sub-items h2{
+                  font-size:1.188rem;
+                  margin: 20 0 20 0;
+            }
+            .cont6-sub-items p{
+                  color:#a7a7a7;
+                  font-size:1rem;
+            }
+            #cont7{
+                  margin-left:10%;
+                  margin-right:10%;
+            }
+            #cont7-header{
+                  text-align: center;
+            }
+            #cont7-header hr{
+                  border:1px solid #ff8b38;
+                  width:3.75rem;
+                  margin-left:47%;
+                  margin:20 auto 30 auto;
+            }
+            #cont7-header p{
+                  color:#a7a7a7;
+            }
+            #cont7-header h1{
+                  font-size:2.188rem;
+                  font-weight: 100;
+            }
+            #sec7{
+                  background-color: #f5f5f5;
+            }
+            .cont7-sub-items-head{
+                  background-color:#333333;
+                  text-align: center;
+                  border-bottom:1px solid white;
+                  color:white;
+                  padding:13 0;
+            }
+            .cont7-sub-items-body {
+                  background-color:333333;
+                  text-align: center;
+                  color:white;
+            }
+            .cont7-sub-items-body h2{
+                  font-size: 5.625rem;;
+            }
+            .cont7-sub-items-body span{
+                  font-size:1.875rem;
+            }
+            .seperater{
+                  background-color:#ff8b38;
+                  text-align: center;
+                  height:0.375rem;
+            }
+            .cont7-sub-items-navigate ul{
+                  list-style-type: none;
+            }
+            .cont7-sub-items-navigate ul li{
+  
+                  width:100%;
+                  color:#a7a7a7;
+                  margin:0 auto 15 auto ;
+            }
+            .cont7-sub-items-navigate{
+                  text-align: center;
+                  background-color:white;
+                  flex-basis: 100%;
+                  display:flex;
+                  flex-direction:column;
+            }
+            .cont7-sub-items-navigate ul:first-child{
+                  MARGIN-TOP:0.625rem;
+            }
+            #cont7-body{
+                  display: flex;
+                  justify-content: space-between;
+                  margin-top:1.875rem;
+            }
+            .cont7-sub-items{
+                  flex-basis: 30%;
+            }
+            .cont7-sub-items-body {
+                  padding-bottom:1.25rem;
+            }
+            .cont7-sub-items-body i{
+                  color:#a7a7a7;
+            }
+            #seperater2{
+                  height:2.5rem;
+                  color:white;
+                  padding-top:0.625rem;
+                  padding-bottom:0.625rem;
+                  padding-left:30%;
+            }
+            #seperater2 p{
+                  position:absolute;
+            }
+            #cont7-body{
+                   align-items: flex-end;
+            }
+            #sec7{
+                  padding-bottom:2.5rem;
+                  padding-top:2.5rem;
+            }            
+            #cont8{
+                  margin-left:10%;
+                  margin-right:10%;
+                  margin-top: 5rem;
+                  margin-bottom: 1.875rem;
+            }
+            #cont8-head{
+                  
+                  text-align: center;
+            }
+            #cont8-head h1{
+                  font-size:2.188rem;
+                  font-weight: 100;
+            }
+            #cont8{
+                  text-align: center;
+            }
+            #cont8-head hr{
+                  border:1px solid #ff8b38;
+                  width:3.75rem;
+                  margin-left:47%;
+                  margin:20 auto 30 auto;
+            }
+            #cont8-head p{
+                  color:#a7a7a7;
+            }
+            #sec8-cont8{
+                  display:flex;
+                  margin-top:3.125rem;
+                  justify-content: space-between;      
+            }
+            .cont8-sub-items{
+                  flex-basis: 30%;
+                  text-align: left;
+                  background-color:#f5f5f5;
+                  padding-left:0.625rem;
+                  padding-top:0.625rem;
+                  padding-bottom:0.625rem;
+                  position:relative;
+                  border-radius: 0.313rem;
+            }
+            .cont8-sub-items h2{
+                  font-size:1.188rem;
+                  margin: 20 0 20 0;
+            }
+            .cont8-sub-items i{
+                  color:#a7a7a7;
+                  font-size:1rem;
+            }
+            .cont8-sub-items img{
+                  position:absolute;
+                  bottom:-0.75rem;
+                  align-items: flex-start;
+                  left:1.375rem;
+            }
+            .cont8-sub-items-users{
+                 height:6.25rem;
+                 display:flex;
+                 margin-top:2.5rem; 
+                 align-items: flex-start;    
+                 flex-basis:30%;
+                 justify-content: space-between;          
+            }
+            #sub-sec8{
+
+                  width:100%;
+                  display:flex;
+                  justify-content: space-between;
+                  
+            }
+            .cont8-user-info{
+                  margin-right:8.625rem;
+                  margin-top:1.25rem;
+            }
+            .cont8-user-info h2{
+                  font-size:1rem;
+            }
+            .cont8-user-info p{
+                  color:#a7a7a7;
+            }
+            #sec9{
+                  text-align: center;
+                  background-image: url("./images/u25_state0.png");
+                  color:white;
+                  padding-top: 3.125rem;
+                  background-repeat: no-repeat;
+                  background-attachment: fixed;
+                  background-size: cover;
+                  padding:3.75rem 0 5rem 0;
+            }
+            #sec9 hr{
+                  border:1px solid white;
+                  width:3.75rem;
+                  margin-left:47%;
+                  margin:20 auto 30 auto;
+            }
+            #sec9 h4{
+                  font-size :2.188rem;
+                  font-weight:100;
+            }
+            #sec9 p{
+                  color:#a7a7a7;
+                  margin-bottom: 1.875rem;
+            }
+            #button4{
+                  border:1px solid white;
+                  padding:0.625rem 1.25rem;
+            }
+      
+            #cont10{
+                  margin-left:10%;
+                  margin-right:10%;
+                  margin-top: 5rem;
+                  margin-bottom: 5rem;
+            }
+            #cont10-head{
+                  
+                  text-align: center;
+            }
+            #cont10-head h1{
+                  font-size:2.188rem;
+                  font-weight: 100;
+            }
+            #cont10{
+                  text-align: center;
+            }
+            #cont10-head hr{
+                  border:1px solid #ff8b38;
+                  width:3.75rem;
+                  margin-left:47%;
+                  margin:20 auto 30 auto;
+            }
+            #cont10-head p{
+                  color:#a7a7a7;
+            }
+            #cont10-sub-cont{
+                  display:flex;
+                  margin-left:10%;
+                  margin-right:10%;
+                  justify-content: space-between;
+                  margin-bottom:2.5rem;
+            }
+            #cont10-sub-cont :first-child{
+                  flex-direction: column;
+            }
+            #cont10-left-side{
+                  display:flex;
+                  flex-direction: column;
+                  width:45%;
+            }
+            #cont10-sub-cont input{
+                  flex-basis:100%;
+                  border:none;
+                  border-bottom:1px solid #eaeaea;
+                  padding-left:1.563rem;
+                  padding-bottom:0.625rem;
+                  color:black;
+            }   
+            #cont10-right-side{
+                  width:45%;
+            }
+            #cont10-right-side textarea{
+                  width:100%;
+                  height: 100%;
+                  resize:none;
+                  border:none;
+                  border-bottom:1px solid #eaeaea;
+            } 
+            #button5 {
+                  color:white;
+                  background-color:#ff8b38;
+                  border-radius: 0.313rem; 
+                  border:none;
+                  font-size:0.75rem;
+                  bottom:active;
+                  align-items:center;
+                  padding:0.75rem 1.25rem;
+                  margin-bottom:1.875rem;
+            }
+            #btn{
+                  text-align: center;
+            }
+            #footer{
+                  text-align: center;
+                  display: flex;
+                  flex-direction: column;
+                  background-color:black;
+                  padding:1.25rem 0;
+            }
+            #footer p{
+                  color:#a7a7a7;
+            }
+            #footer img{
+                  width:25%;
+                  margin-bottom:0.625rem;
+            }
+
+            /* external work start */
+            @media(max-width:1000px){
+                  *{
+                        font-size: 0.813rem;
+                  }
+                  #cont2{
+                        flex-direction: column;
+                        text-align: center;
+                  }
+                  #cont2 p{
+                        margin-bottom:1.25rem;
+                  }
+                  #cont3{
+                        flex-direction: column;
+                  }
+                  #cont3-left-tab1{
+                        text-align:center;
+
+                  }
+                  #cont3-left-tab2{
+                        text-align:center;
+
+                  }
+                  #cont3-left-tab3{
+                        text-align:center;
+                        margin-bottom: 3.125rem;
+                  }
+                  #cont3-left-side1{
+                        text-align: center;
+                  }
+                  #cont3-right-side{
+                        text-align:center;
+                        margin-top: 3.125rem;
+                  }
+                  #cont4{
+                        flex-direction: column;
+                        text-align: center;
+                  }
+                  #cont4 hr{
+                        margin-left:45%;
+                  }
+                  .cont4-sub-items h2{
+                        margin-bottom: 1.25rem;
+                  }
+                  #cont5{
+                        flex-direction: column;
+                  }
+                  .cont7-sub-items-navigate{
+                        margin-bottom: 20px;
+                  }
+                                    .cont6-sub-items{
+                        margin-bottom: 20px;
+                  }
+                  #back-img{
+                        height:800px;
+                  }
+                  #sec-work{
+                        flex-direction: column;
+                  }
+                  #right-side{
+                        margin-bottom: 40px;
+                  }
+            }
+
+
+
+            @media(max-width:700px){
+                  *{
+                        font-size: 0.625rem;
+                  }
+                  #cont2-sub-items2{
+                        width:80%;
+                  }
+                  #cont2-sub-items2 img{
+                        width:100%;
+                 }
+                 #cont5{
+                  flex-direction: column;
+                 }
+                 #cont7-body{
+                  flex-direction: column;
+                  align-items: stretch;
+                 }
+                 #sec8-cont8{
+                  flex-direction: column;
+                 }
+
+                 #sub-sec8{
+                  flex-direction: column;
+                 }
+                 #sec6-cont6{
+                  flex-direction:column;
+                 }
+                 #sec8-cont8{
+                  margin-bottom:0.625rem;
+                 }
+                 .cont8-sub-items{
+                  margin-bottom:1.25rem;
+                 }
+                 .cont7-sub-items-navigate{
+                        margin-bottom: 20px;
+                  }
+                  .cont6-sub-items{
+                        margin-bottom: 20px;
+                  }
+                                    #back-img{
+                        height:800px;
+                  }
+                  #sec-work{
+                        flex-direction: column;
+                  }
+                  #right-side{
+                        margin-bottom: 40px;
+                  }
+            }
+       </style>
+              <link rel="stylesheet" href="./assets/css/style.css" />
+              <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+              <link rel="stylesheet" href="./assets/css/library/font-awesome.css"  />
+              <meta charset="UTF-8">
+              <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+         <div id="header">
+              <div id="sub-header">
+                    <div id="logo">
+                           <img src="./images/logo.png">
+                    </div>
+                    <div id="navigation">
+                          <ul>
+                               <li>Features</li>
+                               <li>About</li>
+                               <li>Pricing</li>
+                               <li>Reviews</li>
+                               <li>Contacts</li>
+                          </ul>
+                    </div>
+              </div>  
+         </div>         
+            </header>
+            <section id="back-img">
+                  <div id="sec-work">
+                        <div id="left-side">
+                        <img src="./images/Logo2.png">
+                        <h2>MODERN AXURE </br>TEMPLATE</br> FOR BEAUTIFUL</br>PROTOTYPES</br>
+                        </h2>
+                        <hr/>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</br> Assumenda, repellat perspiciatis placeat a quibusdam</br> quae debitis quos tenetur, dolores praesentium autem.</p>
+                        <button id="button1">
+                              Download
+                        </button>
+                        </div>
+                  <div id="right-side">
+                        <div id="form-head">
+                              <h2>Try Your<span>Free</span> Trial Today</h2>
+                        </div>
+                        <div id="form-body">
+                              <input type="text" placeholder="Name">
+                              <input type="text" placeholder="E-Mail">
+                              <input type="text" placeholder="Password">
+                        </div>
+                        <button id="button2">
+                              Get started
+                        </button>
+                  </div>
+                  </div>
+            </section>
+            <div id="sec2">
+                  <div id="cont2">
+                        <div id="cont2-sub-items">
+                              <h2>Social Media</h2>
+                              <p>lorem ispum dolor sit amet , consectetur adipiscing elit.</br>Aenean euismod bibendum laoreet.</p>
+                        </div>
+                        <div id="cont2-sub-items2">
+                              <img src="./images/Social Media Icons.png" alt="cont2-img">
+                        </div>
+                  </div>
+            </div>
+            <div id="sec3">
+                  <div id="cont3">
+                        <div id="cont3-left-side">
+                              <div id="cont3-left-tab1">
+                                    <h2>TAB 1</h2>
+                              </div>
+                              <div id="cont3-left-tab2">
+                                    <h2>TAB 2</h2>
+                              </div>
+                              <div id="cont3-left-tab3">
+                                    <h2>TAB 3</h2>
+                              </div>
+                        </div>
+                        <div id="cont3-left-side1">
+                                    <h2>Tabs With Soft Transitioning Effect</h2>
+                                    <p>lorem ispum dolor sit amet, consectetur adipiscing elit. Aenean euismod</br> bibendum laoreet. proin gravida dolor sit amet lacus accumasan et viverra</br> justo commodo. proin sodales pulvinar tempor. cum socils natoque</br> penatibus et magnis dis parturient montes.</p>
+                                    <p id="p2">lorem ipsum dolor sit amet, consectetur adipscing elit. aenean euismod</br> bibendum laoreet.</P>
+                                    <button id="button3">
+                                    Download
+                                    </button>
+                        </div>
+                        <div id="cont3-right-side">
+                                    <img src="./images/image_right_u255.png">
+                        </div>
+                  </div>
+            </div>  
+            <div id="sec4">
+                  <div id="cont4">
+                        <div id="sub-items1">
+                              <img src="./images/image_left_sub_list_u260.png">
+                        </div>
+                        <div id="cont4-right-side">
+                        <div id="sub-items2">
+                              <h2>Sub list section</h2>
+                              <hr/>
+                              <p>lorem ipsum dolor sit amet, consectetur adipiscing elit. aenean euismod bibendum laoreet proin gravida dolor sit amet lacus accumsan et viverra justo commodo</p>
+                        </div>
+                        <div class="cont4-sub-items">
+                              <h2>Title</h2>
+                              <div class="cont4-icon">
+                                    <i class="fa-solid fa-cloud-arrow-up"> </i>
+                                    <p>lorem ipsum dolor sit amet, consectetur adipiscing elit. aeneanlorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                              </div>
+                        </div>   
+                        <div class="cont4-sub-items">
+                              <h2>Title</h2>
+                              <div class="cont4-icon">
+                             <i class="fa-solid fa-cloud-arrow-down"></i>
+                             <p>lorem ipsum dolor sit amet, consectetur adipiscing elit. aeneanlorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                              </div>
+                        </div>   
+                  </div>
+            </div> 
+            </div>
+            <div id="sec5">
+                  <div id="cont5">
+                        <div id="cont5-sub-items1">
+                              <img src="./images/image_right_standard_u262.png">
+                        </div>
+                        <div id="cont5-right-side">
+                        <div id="cont5-sub-items2">
+                              <h2>Standad picture section</h2>
+                              <hr/>
+                              <p>lorem ipsum dolor sit amet, consectetur adipiscing elit. aenean euismod bibendum laoreet proin gravida dolor sit amet lacus accumsan et viverra justo commodo</p>
+                        </div>
+                        <div class="cont5-sub-items">
+                              <div class="cont5-icon">                                  
+                                    <p>lorem ipsum dolor sit amet, consectetur adipiscing elit. aeneanlorem ipsum dolor sit amet, consectetur adipiscing elit.lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                              </div>
+                        </div>   
+                        <div class="cont5-sub-items">
+                              <div class="cont5-icon">
+                              </div>
+                        </div>   
+                  </div>
+            </div> 
+            </div>
+            <div id="sec6">
+                  <div id="cont6">
+                        <div id="cont6-head">
+                              <h1>WHY THIS IS AWSOME</h1>
+                        <hr/>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias alias blanditiis</p>
+                        </div>
+                        <div id="sec6-cont6">
+                              <div class="cont6-sub-items">
+                                    <img src="./images/blub.png">
+                                    <h2>Thoughtfull Design</h2>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, aliquid. Optio quidem dolore officia mollitia asperiores! Iure quia ducimus sint magni, accusantium nostrum aspernatur, repudiandae saepe numquam beatae ipsa aliquam</p>
+                              </div>      
+                              <div class="cont6-sub-items">
+                                    <img src="./images/keyboard.png">
+                                    <h2>Well crafted</h2>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, aliquid. Optio quidem dolore officia mollitia asperiores! Iure quia ducimus sint magni, accusantium nostrum aspernatur, repudiandae saepe numquam beatae ipsa aliquam</p>
+                              </div>
+                              <div class="cont6-sub-items">
+                                    <img src="./images/customize.png">
+                                    <h2>Easy to customize</h2>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, aliquid. Optio quidem dolore officia mollitia asperiores! Iure quia ducimus sint magni, accusantium nostrum aspernatur, repudiandae saepe numquam beatae ipsa aliquam</p>
+                              </div>
+                        </div>
+                  </div>
+            </div>
+      <div id="sec7">
+            <div id="cont7">
+                  <div id="cont7-header">
+                        <h1>PRICING OPTIONS</h1>
+                        <hr/>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisic</p>
+                  </div>
+                  <div id="cont7-body">
+                        <div class="cont7-sub-items">
+                              <div class="cont7-sub-items-head">
+                                    <h2>Basic</h2>
+                              </div>
+                              <div class="cont7-sub-items-body">
+                                    <h2><span>$</span>0</h2>
+                                    <i>Free For Life</i>
+                              </div>
+                              <div class="seperater">
+                                    &nbsp;
+                              </div>
+                              <div class="cont7-sub-items-navigate">
+                                    <ul>
+                                          <li>1 GB OF SPACE</li>
+                                          <li>1GB OF BANDWIDTH</li>
+                                          <li>3 WEBSITES</li>
+                                          <li>BASIC CUSTOMIZATION</li>
+                                          <li>WORDPRESS INTEGRATION</li>
+                                          <li>EMAIL SUPPORT</li>
+                                    </ul>
+                              </div>
+                        </div>
+                        <div class="cont7-sub-items">
+                              <div class="cont7-sub-items-head">
+                                    <h2>Basic</h2>
+                              </div>
+                              <div class="cont7-sub-items-body">
+                                    <h2><span>$</span>0</h2>
+                                    <i>Free For Life</i>
+                              </div>
+                              <div class="seperater" id="seperater2">
+                                    <p>OUR MOST POPULAR</p>
+                              </div>
+                              <div class="cont7-sub-items-navigate">
+                                    <ul>
+                                          <li>1 GB OF SPACE</li>
+                                          <li>1GB OF BANDWIDTH</li>
+                                          <li>3 WEBSITES</li>
+                                          <li>BASIC CUSTOMIZATION</li>
+                                          <li>WORDPRESS INTEGRATION</li>
+                                          <li>EMAIL SUPPORT</li>
+                                    </ul>
+                              </div>
+                        </div>
+                        <div class="cont7-sub-items">
+                              <div class="cont7-sub-items-head">
+                                    <h2>Basic</h2>
+                              </div>
+                              <div class="cont7-sub-items-body">
+                                    <h2><span>$</span>0</h2>
+                                    <i>Free For Life</i>
+                              </div>
+                              <div class="seperater">
+                                    &nbsp;
+                              </div>
+                              <div class="cont7-sub-items-navigate">
+                                    <ul>
+                                          <li>1 GB OF SPACE</li>
+                                          <li>1GB OF BANDWIDTH</li>
+                                          <li>3 WEBSITES</li>
+                                          <li>BASIC CUSTOMIZATION</li>
+                                          <li>WORDPRESS INTEGRATION</li>
+                                          <li>EMAIL SUPPORT</li>
+                                    </ul>
+                              </div>
+                        </div>
+                  </div>
+            </div>
+      </div>
+      <div id="sec8">
+            <div id="cont8">
+                  <div id="cont8-head">
+                        <h1>WHAT OUR CUSTOMER ARE SAYING</h1>
+                  <hr/>
+                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias alias blanditiis</p>
+                  </div>
+                  <div id="sec8-cont8">
+                        <div class="cont8-sub-items">
+                              <i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, aliquid. Optio quidem dolore officia mollitia asperiores! Iure quia ducimus sint magni, accusantium nostrum aspernatur, repudiandae saepe numquam beatae ipsa aliquam</i>
+                              <img src="./images/arrow-bottom.png">
+                        </div>   
+                        <div class="cont8-sub-items">
+                              <i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, aliquid. Optio quidem dolore officia mollitia asperiores! Iure quia ducimus sint magni, accusantium nostrum aspernatur, repudiandae saepe numquam beatae ipsa aliquam</i>
+                              <img src="./images/arrow-bottom.png">
+                         </div>
+                        <div class="cont8-sub-items">
+                              <i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, aliquid. Optio quidem dolore officia mollitia asperiores! Iure quia ducimus sint magni, accusantium nostrum aspernatur, repudiandae saepe numquam beatae ipsa aliquam</i>
+                              <img src="./images/arrow-bottom.png">
+                        </div>
+                   </div>
+                   <div id="sub-sec8">
+                        <div class="cont8-sub-items-users">
+                              <img src="./images/avatar_2_u231.png">
+                              <div class="cont8-user-info">
+                              <h2>Susan W.</h2>
+                              <p>Photography</p>
+                              </div>
+                        </div>
+                        <div class="cont8-sub-items-users">
+                              <img src="./images/avatar_2_u231.png">
+                              <div class="cont8-user-info">
+                              <h2>Susan W.</h2>
+                              <p>Photography</p>
+                              </div>
+                        </div>
+                        <div class="cont8-sub-items-users">
+                              <img src="./images/avatar_2_u231.png">
+                              <div class="cont8-user-info">
+                              <h2>Susan W.</h2>
+                              <p>Photography</p>
+                              </div>
+                        </div>
+                  </div>
+            </div>
+      </div>
+      <div id="sec9">
+            <h4>STYLISH AXURE DESIGN</h4>
+      <hr/>
+            <p>Use the sections you need, remove the ones you don't. Create gorgeous prototypes faster than ever</p>
+            <buton id="button4">Download</buton>
+      </div>
+      </div>
+      <div id="cont10">
+            <div id="cont10-head">
+                  <h1>CONTACT US</h1>
+            <hr/>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+      </div>
+            <div id="cont10-sub-cont">
+                  <div id="cont10-left-side">
+                        <input type="text" placeholder="Name"><br/>
+                        <input type="text" placeholder="Email"><br/>
+                        <input type="text" placeholder="Subject">
+                  </div>
+                  <div id="cont10-right-side">
+                        <textarea placeholder="Message"></textarea>
+                  </div>
+            </div>
+            <div id="btn">
+                  <button id="button5">
+                        Send Message
+                  </button>
+            </div>
+            <div id="footer">
+                  <div id="footer1">
+                  <img src="./images/footer-social-icons.png">
+                  <p>© 2023 Axure Themes</p>
+            </div>
+            </div>
+    </body>
+</html>  
