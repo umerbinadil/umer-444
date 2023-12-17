@@ -1,0 +1,84 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+
+#main-section{
+   padding:20px 20px;
+}
+
+#main-section input{
+    width:100%;
+    height:100px;
+    font-size:50px;
+    background-color:grey;
+    color:white;
+}
+
+.btn-yellow{
+    background-color:#f5923e;
+    color:white;
+    width:25%;
+    height:100%;
+    font-size:50px;
+    border:1px solid black;
+}
+
+.btns{
+    width:100%;
+    display:flex;
+    height:70px;
+}
+
+.btn-grey{
+    background-color:#e0e0e0;
+    color:black;    
+    width:25%;
+    height:100%;
+    font-size:50px;
+    border:1px solid black
+}
+
+.btn-equal{
+    background-color:green;
+    color:black;    
+    width:25%;
+    height:100%;
+    font-size:50px;
+    border:1px solid black
+}   
+
+.btn-clear{
+    background-color:red;
+    color:black;    
+    width:25%;
+    height:100%;
+    font-size:50px;
+    border:1px solid black
+}
+
+#whole-html{
+    width:50%;
+    margin:0 auto;
+}
+
+button:hover{
+    background-color:blue;
+    color:white;
+    font-size:60px;
+    cursor: pointer;
+}
+
+.btn-off{
+    background-color:red;
+    color:black;    
+    width:25%;
+    height:100%;
+    font-size:30px;
+    border:1px solid black
+}
+
+.btn-off:hover{
+    font-size:40px;
+}
